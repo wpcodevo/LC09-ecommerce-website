@@ -95,6 +95,10 @@ Navigation
   justify-content: space-between;
 }
 
+.nav-list .icons {
+  display: none;
+}
+
 .nav-center .nav-item:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -145,7 +149,7 @@ Navigation
 @media only screen and (max-width: 768px) {
   .nav-list {
     position: fixed;
-    top: 10%;
+    top: 12%;
     left: -35rem;
     flex-direction: column;
     align-items: flex-start;
@@ -181,6 +185,10 @@ Navigation
 
   .icons {
     display: none;
+  }
+
+  .nav-list .icons {
+    display: flex;
   }
 
   .top-nav ul {
