@@ -741,7 +741,7 @@ Hero Media Query
   margin-bottom: 2rem;
 }
 
-.contact .row .col .btn-1 {
+.btn-1 {
   background-color: var(--green);
   color: var(--white);
   display: inline-block;
