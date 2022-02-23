@@ -1,5 +1,5 @@
 /* Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 /* Color Variables */
 :root {
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   background-color: var(--white);
   color: var(--black);
@@ -547,7 +547,7 @@ Hero Media Query
 }
 
 .product-item .overlay::after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -756,7 +756,7 @@ Hero Media Query
 }
 
 .contact form input {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-indent: 2rem;
   width: 100%;
   border-radius: 1rem;
@@ -865,6 +865,7 @@ footer .row {
   top: 50%;
   left: 50%;
   width: 90%;
+  max-width: 110rem;
   margin: 0 auto;
   height: 55rem;
   transform: translate(-50%, -50%);
@@ -1084,7 +1085,7 @@ footer .row {
 }
 
 .all-products .top select {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 20rem;
   padding: 1rem;
   border: 1px solid #ccc;
@@ -1265,7 +1266,7 @@ th:last-child {
 }
 
 .product-detail .right select {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   width: 20rem;
   padding: 0.7rem;
   border: 1px solid #ccc;
