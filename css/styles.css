@@ -228,7 +228,7 @@ Hero Area
 .hero .left {
   position: absolute;
   top: 0%;
-  left: 0;
+  left: 25rem;
   opacity: 0;
   transition: all 1000ms ease-in-out;
 }
@@ -293,6 +293,11 @@ Hero Area
 Hero Media Query
 ======================
 */
+@media only screen and (max-width: 1500px) {
+  .hero .left {
+    left: 0;
+  }
+}
 @media only screen and (max-width: 999px) {
   .glide__slide--active .left {
     top: 15%;
@@ -609,13 +614,13 @@ Hero Media Query
 .banner {
   position: relative;
   background-color: var(--grey2);
-  padding: 14rem;
+  padding: 14rem 20%;
 }
 
 .banner .right img {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 10%;
   width: 75rem;
 }
 
@@ -638,13 +643,13 @@ Hero Media Query
   margin-top: 2rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   .banner {
-    padding: 14rem 2rem;
+    padding: 14rem;
   }
 
   .banner .right img {
-    right: -6%;
+    right: 3rem;
     width: 70rem;
   }
 }
